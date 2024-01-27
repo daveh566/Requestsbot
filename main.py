@@ -2,10 +2,10 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 
 # Replace 'YOUR_TOKEN' with the actual token provided by BotFather
-TOKEN = 'YOUR_TOKEN'
+TOKEN = 6733000714:AAG1Q6G_KxJqmQ535SyY1ftU-FoLnpXotyA
 
 # Replace 'ADMIN_IDS' with a list of your admin user IDs
-ADMIN_IDS = [123456789, 987654321]
+ADMIN_IDS = [123456789, 5002238436]
 
 def start(update: Update, context: CallbackContext) -> None:
     update.message.reply_text('Hello! This is your bot.')
