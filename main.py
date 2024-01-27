@@ -1,5 +1,9 @@
-from telegram import Update
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
+try:
+    from telegram import Update
+except:
+    import os
+    os.system("pip install python-telegram-bot --upgrade")
+from telegram.ext import Updater, CommandHandler, MessageHandler, filters, CallbackContext
 
 # Replace 'YOUR_TOKEN' with the actual token provided by BotFather
 TOKEN = 6733000714:AAG1Q6G_KxJqmQ535SyY1ftU-FoLnpXotyA
